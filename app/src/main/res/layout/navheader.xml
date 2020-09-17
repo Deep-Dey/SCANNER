@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="15dp"
+    android:background="@color/colorAccent">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/nav_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/icon"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nav_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="SCANNER"
+                android:textColor="@color/textColor"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+

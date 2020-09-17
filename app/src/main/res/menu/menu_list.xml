@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_Account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_24"/>
+
+    <item android:id="@+id/item_aadhaar"
+        android:title="Scan Aadhaar Card"
+        android:icon="@drawable/ic_action_aadhar"/>
+
+    <item android:id="@+id/item_QR"
+        android:title="Scan QR or Bar Code"
+        android:icon="@drawable/ic_action_qrcode"/>
+
+    <item android:id="@+id/item_other"
+        android:title="Scan Docs"
+        android:icon="@drawable/ic_baseline_picture_as_pdf_24"/>
+
+    <item android:id="@+id/item_info"
+        android:title="Visit Our Site"
+        android:icon="@drawable/ic_site"/>
+
+</menu>

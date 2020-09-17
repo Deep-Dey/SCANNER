@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/header1"
+            android:paddingVertical="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@color/colorAccent"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:background="@drawable/round_image_border"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/download"/>
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/round_output"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="Output Text..."
+            android:textIsSelectable="true"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/openCamera"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:text="open Camera"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button"/>
+
+            <Button
+                android:id="@+id/imagePick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:text="choose Image"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/textConvert"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Get Text"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button"/>
+
+            <Button
+                android:id="@+id/savePDF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Save as PDF"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
