@@ -86,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
                         temp=new FragmentSite();
                         break;
 
+                    case R.id.item_pdf:
+                        temp=new Fragment_PDF();
+                        break;
+
                     case R.id.item_aadhaar:
                         temp=new FragmentAadhar();
                         break;

@@ -19,7 +19,7 @@ public class saveAsPdf {
         Document document=new Document();
         String Filename=new SimpleDateFormat("yyyymmdd_HHmmss",
                 Locale.getDefault()).format(System.currentTimeMillis());
-        String FilePath= Environment.getExternalStorageDirectory()+"/"+Filename+".pdf";
+        String FilePath= Environment.getExternalStorageDirectory()+"/"+"SCANNER_"+Filename+".pdf";
         try {
             PdfWriter.getInstance(document, new FileOutputStream(FilePath));
             document.open();
